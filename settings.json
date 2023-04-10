@@ -1,0 +1,12 @@
+{
+    "accessSettings": {
+        "corsSettings": {
+          "allowHttpOptions": true
+        },
+        "gcipSettings": {
+            "tenantIds": [
+                
+              ]
+        }
+    }
+}
