@@ -2,8 +2,7 @@
 
 - enable multi-tenancy via the console: https://cloud.google.com/identity-platform/docs/multi-tenancy-quickstart
 - set project id in main.tf
-- create IAP client ID 
-- create service account with identity admin and compute admin
+- create service account with owner role on project
 - `export GOOGLE_APPLICATION_CREDENTIALS=~/keys/gcip-503-reproducer.json`
 - `terraform apply`
 - `terraform output -json > outputs.json`
